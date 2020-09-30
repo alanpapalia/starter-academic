@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD Student in Robotics
+role: PhD Student | Robotics
 
 # Organizations/Affiliations
 organizations:
@@ -21,16 +21,17 @@ organizations:
 bio: My research interests include multi-robot systems, localization, and path-planning.
 
 interests:
-- Multi-Robot Systems
+- Automation
+- Robotics
 - Simultaneous Localization and Mapping
-# - Information Retrieval
+- Path Planning
 
 education:
   courses:
-  - course: PhD in Robotics
+  - course: PhD Robotics
     institution: Massachusetts Institute of Technology
     year: 2024
-  - course: BSc in Mechanical Engineering
+  - course: BS Mechanical Engineering
     institution: University of Illinois at Urbana-Champaign
     year: 2019
 
@@ -41,32 +42,36 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:alanpapalia@gmail.com'  # For a direct email link, use "mailto:test@example.org".
 - icon: linkedin
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://www.linkedin.com/in/alan-papalia-06883b105/
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.com/citations?user=Ym3SpKgAAAAJ&hl=en
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/alanpapalia
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "alanpapalia@gmail.com"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Researchers
-- Visitors
+# user_groups:
+# - Researchers
+# - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a PhD student in Robotics with the Massachusetts Institute of Technology and the Woods Hole Oceanographic Institute <a href="https://mit.whoi.edu/"> Joint Program</a>. I'm fortunate to be working alongside great people in the <a href="http://marinerobotics.mit.edu"> Marine Robotics Group</a>, under <a href="https://meche.mit.edu/people/faculty/JLEONARD@MIT.EDU"> Prof. John Leonard</a>.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I'm excited about the potential of collaborative multi-robot systems in the future of our society. My research seeks to leverage graph theory, probability, and optimization to develop algorithms for multi-robot systems that allow for robots to robustly accomplish tasks in uncertain environments.
+
+Before working in robotics I spent my undergraduate years working with a great group of people on the <a href="https://motorsports.illinois.edu/"> Illini Motorsports Formula SAE </a> team. Here I oversaw a team of over 40 members, engaged in a number of mechanical design projects, and took part in a number of international competitions.
+
+I'm always open to opportunities! Send me an <a href="mailto:alanpapalia@gmail.com"> email </a> or reach out over <a href="//www.linkedin.com/in/alan-papalia-06883b105">LinkedIn</a> if you think our interests match.
