@@ -12,20 +12,6 @@ image:
   caption: Image by Alan Papalia
   focal_point: Smart
 
-links:
-- icon: github
-  icon_pack: fab
-  name: GitHub
-  url: https://github.com/alanpapalia/miqcp-planning
-- icon: linkedin
-  icon_pack: fab
-  name: LinkedIn
-  url: https://www.linkedin.com/in/alan-papalia-06883b105/
-- icon: google-scholar
-  icon_pack: ai
-  name: Scholar
-  url: https://scholar.google.com/citations?user=Ym3SpKgAAAAJ&hl=en
-
 url_code: ""
 url_pdf: ""
 url_slides: ""

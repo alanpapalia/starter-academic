@@ -12,15 +12,6 @@ image:
   caption: Image by Alan Papalia
   focal_point: Smart
 
-links:
-- icon: linkedin
-  icon_pack: fab
-  name: LinkedIn
-  url: https://www.linkedin.com/in/alan-papalia-06883b105/
-- icon: google-scholar
-  icon_pack: ai
-  name: Scholar
-  url: https://scholar.google.com/citations?user=Ym3SpKgAAAAJ&hl=en
 
 url_code: ""
 url_pdf: ""
@@ -35,8 +26,13 @@ url_video: ""
 slides: ""
 ---
 
-As part of MIT's course 16.413 I worked on a team to derive a model-predictive controller for a simulated quadrotor in a non-convex planning space. I used <a href="https://scip.zib.de/"> SCIP</a>, an open-source optimization software in conjunction with simplified quadrotor dynamics model to perform the path-planning subject to obstacle avoidance constraints.
+For the final project in a mechanical design course at the University of
+Illinois I worked on a team to design a 3-speed transmission, complete with idle
+and reverse gears. In the design of this transmission I used fundamental machine
+design calculations to determine the proper gear ratios and gear tooth sizing.
+This included hand-calculations and finite element simulations to predict the
+gear tooth root stress for every gear pairing. In addition to this I predicted
+the bearing load for each bearing supporting each shaft to verify that we were
+within the bearing specifications.
 
-Because objects could be placed arbitrarily within the environment, the planning problem was inherently non-convex. For this reason the problem was modeled as a mixed-integer problem.
-
-In <a href="https://github.com/alanpapalia/miqcp-planning"> this repo</a> all of our work is shown in a Jupyter Notebook, along with a brief explanation of some relevant topics in optimization and a derivation of the quadrotor dynamics.
+I fabricated the transmission with a waterjet and performed testing on a rig which was provided to us. Using this we were able to predict the mechanical efficiencies of each gear pairing.
