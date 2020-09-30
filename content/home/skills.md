@@ -35,9 +35,14 @@ subtitle = ""
   name = "Mechanical Design"
 
 [[feature]]
+  icon = "machining"
+  icon_pack = "custom"
+  name = "Machining"
+
+[[feature]]
   icon = "welder"
   icon_pack = "custom"
-  name = "Prototyping"
+  name = "Welding"
 
 
 
