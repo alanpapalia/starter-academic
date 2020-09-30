@@ -1,6 +1,6 @@
 ---
-title: 6-DOF Object Tracking
-summary: A system for automated data collection and off-line pose estimation for predetermined objects for robotic grasping testbed
+title: Mixed-Integer Model Predictive Control
+summary: Mixed-integer program to perform path-planning with model predictive control for simplified 2-D quadrotor environment
 tags:
 - Robotics
 date: "2020-09-30T00:00:00Z"
@@ -9,10 +9,14 @@ date: "2020-09-30T00:00:00Z"
 external_link: ""
 
 image:
-  caption: Photo from Oregon State University
+  caption: Image by Alan Papalia
   focal_point: Smart
 
 links:
+- icon: github
+  icon_pack: fab
+  name: GitHub
+  link: https://github.com/alanpapalia/miqcp-planning
 - icon: linkedin
   icon_pack: fab
   name: LinkedIn
@@ -35,23 +39,8 @@ url_video: ""
 slides: ""
 ---
 
-This project was part of a few months I spent at the <a
-href="https://robotics.oregonstate.edu/"> Collaborative Robotics and Intelligent
-Systems Institute</a> of Oregon State University. I was part of an NSF Research
-Experience for Undergrads, and my goal was to develop an automated system for
-tracking an object.
+As part of MIT's course 16.413 I worked on a team to derive a model-predictive controller for a simulated quadrotor in a non-convex planning space. I used <a href="https://scip.zib.de/"> SCIP</a>, an open-source optimization software in conjunction with simplified quadrotor dynamics model to perform the path-planning subject to obstacle avoidance constraints.
 
-The larger goal was to build an entire testbed which researchers could remotely
-access and test robotic grasping algorithms on. My part of the project would
-allow for quantitative statistics on the grasping experiments.
+Because objects could be placed arbitrarily within the environment, the planning problem was inherently non-convex. For this reason the problem was modeled as a mixed-integer problem.
 
-To approach the problem I developed a Python library that was capable of
-interfacing with Intel RGB-D cameras and recording several image streams in
-parallel. To then perform object tracking several state-of-the-art pose
-estimation techniques were implemented and compared. The comparison showed
-improved reliability and performance under occlusion for a <a
-href="https://labicvl.github.io/docs/pubs/Aly_ECCV_2014.pdf"> Latent-Class Hough
-Forest framework</a> developed at the Imperial College London.
-
-During a grasping experiment the data capture was set to be automated by the
-RGB-D cameras and the images were then post-processed by the chosen framework.
+In <a href="https://github.com/alanpapalia/miqcp-planning"> this repo</a> all of our work is shown in a Jupyter Notebook, along with a brief explanation of some relevant topics in optimization and a derivation of the quadrotor dynamics.
