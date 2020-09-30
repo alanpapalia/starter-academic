@@ -1,7 +1,6 @@
 ---
 title: 6-DOF Object Tracking
-summary: A system for automated data collection and off-line pose
-estimation for predetermined objects for robotic grasping testbed
+summary: A system for automated data collection and off-line pose estimation for predetermined objects for robotic grasping testbed
 tags:
 - Design
 date: "2020-09-30T00:00:00Z"
