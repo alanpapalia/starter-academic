@@ -1,6 +1,6 @@
 ---
-title: Formula SAE Fuel Tank
-summary: Numerical simulations, design, waterjetting, and welding of the fuel tank
+title: Aluminum Fuel Tank
+summary: Numerical simulations, design, and full fabrication of the fuel tank
 tags:
 - Design
 date: "2020-09-30T00:00:00Z"

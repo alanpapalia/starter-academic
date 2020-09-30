@@ -1,5 +1,5 @@
 ---
-title: Formula SAE Chassis Jigging
+title: Steel Spaceframe Jigging
 summary: Design and fabrication of jigging for the entire steel-tube spaceframe chassis assembly
 tags:
 - Design

@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD Student | Robotics
+role: PhD Student | Autonomy | Robotics | Design
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
   url: "http://marinerobotics.mit.edu"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include multi-robot systems, localization, and path-planning.
+bio: My interests include autonomous robotic systems and mechanical design
 
 interests:
 - Automation

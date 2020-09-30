@@ -1,5 +1,5 @@
 ---
-title: Formula SAE System Design
+title: Formula Racecar System Design
 summary: Lead system architect for the 2019 Illini Motorsports Vehicle
 tags:
 - Design

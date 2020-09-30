@@ -1,6 +1,6 @@
 ---
-title: Carbon Fiber Monocoque Design
-summary: Design, simulation, and validation of hybrid-monocoque chassis
+title: Carbon Fiber Hybrid-Monocoque Chassis
+summary: Design, simulation, validation, and fabrication of hybrid-monocoque chassis
 tags:
 - Design
 date: "2020-09-30T00:00:00Z"
