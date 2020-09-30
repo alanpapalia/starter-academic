@@ -18,19 +18,16 @@ subtitle = ""
   icon = "python"
   icon_pack = "fab"
   name = "Python"
-  <!-- description = "90%" -->
 
 [[feature]]
   icon = "cogs"
   icon_pack = "fas"
   name = "Mechanical Design"
-  <!-- description = "100%"   -->
 
 [[feature]]
   icon = "c++"
   icon_pack = "custom"
   name = "C++"
-  <!-- description = "10%" -->
 
 # Uncomment to use emoji icons.
 # [[feature]]
