@@ -23,7 +23,7 @@ bio: My research interests include multi-robot systems, localization, and path-p
 interests:
 - Automation
 - Robotics
-- Simultaneous Localization and Mapping
+- SLAM
 - Path Planning
 
 education:

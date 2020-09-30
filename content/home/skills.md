@@ -20,14 +20,26 @@ subtitle = ""
   name = "Python"
 
 [[feature]]
+  icon = "c++"
+  icon_pack = "custom"
+  name = "C++"
+
+[[feature]]
+  icon = "robot"
+  icon_pack = "fas"
+  name = "Robotics"
+
+[[feature]]
   icon = "cogs"
   icon_pack = "fas"
   name = "Mechanical Design"
 
 [[feature]]
-  icon = "c++"
+  icon = "welder"
   icon_pack = "custom"
-  name = "C++"
+  name = "Prototyping"
+
+
 
 # Uncomment to use emoji icons.
 # [[feature]]
