@@ -26,8 +26,23 @@ url_video: ""
 slides: ""
 ---
 
-As part of MIT's course 16.413 I worked on a team to derive a model-predictive controller for a simulated quadrotor in a non-convex planning space. I used <a href="https://scip.zib.de/"> SCIP</a>, an open-source optimization software in conjunction with simplified quadrotor dynamics model to perform the path-planning subject to obstacle avoidance constraints.
+For the Illini Motorsports Formula SAE team I designed and fabricated our
+aluminum fuel tank. There were several constraints and considerations which
+guided the design. First and foremost, was driver safety. The fuel tank had to
+be packaged in such a way that any malfunction could not put the driver at risk.
+Additional packaging constraints required that the fuel tank had to compactly
+fit in it's assigned area. In addition, serviceability was a key consideration
+in that the fuel tank needed to be easily accessed in the event of failures such
+as fuel pressure drops.
 
-Because objects could be placed arbitrarily within the environment, the planning problem was inherently non-convex. For this reason the problem was modeled as a mixed-integer problem.
+Beyond high-level qualitative measurements, fuel tank design also required
+consideration of the effects of fuel slosh and the weight of the tank. A thin
+aluminum sheet was selected to reduce weight while still ensuring the tank could
+be made without leaks.
 
-In <a href="https://github.com/alanpapalia/miqcp-planning"> this repo</a> all of our work is shown in a Jupyter Notebook, along with a brief explanation of some relevant topics in optimization and a derivation of the quadrotor dynamics.
+Fuel slosh has the potential to cause dynamic fuel starvation issues and impact
+vehicle dynamics. To reduce fuel slosh internal baffling was used. To determine
+an effective baffling design I set up computational fluid dynamics situations
+which used inertial loads recorded during real racing events and observed the
+fuel slosh caused during different baffle designs. The effects of baffling could be measured by the amount of time that fuel was present at the designed outlet and the net kinetic energy of the fuel.
+
