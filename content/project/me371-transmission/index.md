@@ -1,6 +1,6 @@
 ---
 title: 3-Speed Transmission
-summary: Design and manufacturing of a transmission with 3 speeds, and idle, and reverse
+summary: Design and manufacturing of a transmission with 3 speeds, idle, and reverse
 tags:
 - Design
 date: "2020-09-30T00:00:00Z"
@@ -35,4 +35,4 @@ gear tooth root stress for every gear pairing. In addition to this I predicted
 the bearing load for each bearing supporting each shaft to verify that we were
 within the bearing specifications.
 
-I fabricated the transmission with a waterjet and performed testing on a rig which was provided to us. Using this we were able to predict the mechanical efficiencies of each gear pairing.
+I fabricated the transmission with a waterjet and performed testing on a rig which was provided to us. Using this we were able to estimate the mechanical efficiencies of each gear pairing.

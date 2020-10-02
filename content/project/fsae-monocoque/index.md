@@ -30,9 +30,11 @@ My senior year I led the complete redesign of our team's hybrid monocoque chassi
 The scope of our monocoque design space was limited by several hard constraints.
 As is key with any composite structure, our design had to be a shape which could
 be produced on a mold. In addition, the design was limited to composite
-materials which were readily available to us. Finally, each section of the
+materials which were readily available to us. Each section of the
 monocoque had to meet all criteria established by the Formula SAE rules
-committee. Beyond these hard constraints, I set design constraints on driver
+committee. Finally, the monocoque had to be able to withstand the full range of suspension loads it would see during driving.
+
+Beyond these hard constraints, I set design constraints on driver
 visibility, requiring that our shortest driver would be able to see at least 7
 feet in front of the car.
 
@@ -49,6 +51,8 @@ derive the true properties of each sandwich panel. As such, we were able to
 determine panel designs which met the structural requirements provided while
 still finding a minimal areal density of each panel.
 
+![Panel Testing](panel_testing.png)
+
 However, design did not stop here. As previously mentioned, to manufacture a
 composite structure we needed some form of mold, but our equipment was not able
 to machine a mold of suitable size in-house. This left us the options of either
@@ -56,10 +60,15 @@ manufacturing the mold in parts and attempting to align the sections or
 outsourcing the machining. Thanks to our wonderful sponsors at <a href =
 "https://en.machinetools.camozzi.com/who/ingersoll-machine-tools.kl"> Ingersoll
 Machine Tools </a> we were able to work alongside them to design molds which
-could be machined on their large-scale CNC mills. This allowed for improved
-tolerance on the molds, resulting in a higher quality finished monocoque. To make use of their machines I had to collaborate with engineers working with our sponsor to ensure that our molds were machineable.
+could be machined on their large-scale CNC mills while meeting our critical
+dimension requirements. This allowed for improved tolerance on the molds,
+resulting in a higher quality finished monocoque. To make use of their machines
+I had to collaborate with engineers working with our sponsor to ensure that our
+molds were machineable.
 
 After receiving the molds from our sponsor I worked with members of our
 composite subsystem to make carbon-fiber tooling, which would be the final molds
 for our monocoque. This was done so that the tools would match the coefficient
-of thermal expansion between the tooling and the monocoque. With the carbon tooling manufactured, 
+of thermal expansion between the tooling and the monocoque. With the carbon
+tooling manufactured, our team handled five successive composite layups and cure
+cycles in an on-campus autoclave.
