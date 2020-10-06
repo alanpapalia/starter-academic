@@ -33,3 +33,15 @@ walker mechanism.
 {{< video library="true" src="370_video.mv4" controls="yes" >}}
 {{< video library="true" src="370_video.webm" controls="yes" >}}
 {{< video library="true" src="370_video.mp4" controls="yes" >}}
+
+<html>
+<body>
+
+<h1>The video element</h1>
+
+<video width="320" height="240" loop autoplay muted>
+  <source src="370_video.mp4" type="video/mp4">
+</video>
+
+</body>
+</html>
