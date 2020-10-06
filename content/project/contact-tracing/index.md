@@ -13,6 +13,7 @@ image:
   caption: Figure by Lilly Clark
   focal_point: Smart
 
+links:
 - icon: google-scholar
   icon_pack: ai
   name: Scholar
