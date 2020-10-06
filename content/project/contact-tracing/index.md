@@ -10,6 +10,7 @@ external_link: ""
 
 
 image:
+  caption: Figure by Lilly Clark
   focal_point: Smart
 
 - icon: google-scholar
