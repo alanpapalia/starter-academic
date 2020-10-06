@@ -35,7 +35,7 @@ walker mechanism.
 
 <div class="hovereffect">
 
-  <video class="video" id="backgroundvideo" style="max-height:100%; max-width:100%; float:right" autoplay
+  <video class="video" autoplay
     muted loop>
     <source src="/img/370_video.mp4" type='video/mp4' />
   </video>
