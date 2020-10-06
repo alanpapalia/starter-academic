@@ -37,7 +37,7 @@ walker mechanism.
 
   <video class="video" id="backgroundvideo" style="max-height:100%; max-width:100%; float:right" autoplay
     muted loop>
-    <source src="/img/370_video.webm" type='video/webm; codecs="vp8, vorbis"' />
+    <source src="/img/370_video.mp4" type='video/mp4' />
   </video>
 
   <div class="overlay">
