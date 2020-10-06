@@ -32,20 +32,13 @@ walker mechanism.
 
 <html>
 <body>
-
-<div class="hovereffect">
-
   <video class="video" autoplay
     muted loop>
     <source src="/img/370_video.mp4" type='video/mp4' />
   </video>
-
-  <div class="overlay">
-    <p>
-      Our walker exploring the Bardeen Quad as the ballerina pirouettes on top.
-    </p>
-  </div>
-</div>
-
 </body>
 </html>
+
+Our walker exploring the Bardeen Quad as the ballerina pirouettes on top.
+
+To actually design the walker we made use of 
