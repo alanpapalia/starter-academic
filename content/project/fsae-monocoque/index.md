@@ -44,7 +44,7 @@ conditions.
 
 
 ![CAD](chassis_cad.png)
-<div align="center">CAD of the final chassis design</div>
+<div align="center" style="padding-bottom:80px">CAD of the final chassis design</div>
 
 To minimize the weight I coordinated several rounds of mechanical testing of
 sandwich panels. These tests were driven by a mechanical properties tool which
@@ -56,7 +56,7 @@ determine panel designs which met the structural requirements provided while
 still finding a minimal areal density of each panel.
 
 ![Panel Testing](panel_testing.png)
-<div align="center">Sandwich panel testing to derive material properties</div>
+<div align="center" style="padding-bottom:80px">Sandwich panel testing to derive material properties</div>
 
 
 However, design work did not stop here. As previously mentioned, to manufacture
@@ -73,7 +73,7 @@ I had to collaborate with engineers working with our sponsor to ensure that our
 molds were machineable.
 
 ![Molds](mold_1.jpg)
-<div align="center">Molds after sponsored machining</div>
+<div align="center" style="padding-bottom:80px">Molds after sponsored machining</div>
 
 After receiving the molds from our sponsor I worked with members of our
 composite subsystem to make carbon-fiber tooling, which would be the final molds
@@ -83,8 +83,8 @@ tooling manufactured, our team handled five successive composite layups and cure
 cycles in an on-campus autoclave.
 
 ![Tooling](tooling_cure.jpg)
-<div align="center">Loading the CFRP tooling for the upper half of the monocoque into an autoclave</div>
+<div align="center" style="padding-bottom:80px">Loading the CFRP tooling for the upper half of the monocoque into an autoclave</div>
 
 
-![Layup](lower_layup.jg)
-<div align="center">Layup of the lower half of the monocoque inside CFRP tooling</div>
+![Layup](lower_layup.jpg)
+<div align="center" style="padding-bottom:80px">Layup of the lower half of the monocoque inside CFRP tooling</div>
