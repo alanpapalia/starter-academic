@@ -30,18 +30,22 @@ For my Mechanical Design I class a group of us designed a ballerina-themed
 walker. This included all forms of linkage analysis to determine the appropriate
 walker mechanism.
 
-{{< video library="true" src="370_video.mv4" controls="yes" >}}
-{{< video library="true" src="370_video.webm" controls="yes" >}}
-{{< video library="true" src="370_video.mp4" controls="yes" >}}
-
 <html>
 <body>
 
-<h1>The video element</h1>
+<div class="hovereffect">
 
-<video width="320" height="240" loop autoplay muted>
-  <source src="370_video.mp4" type="video/mp4">
-</video>
+  <video class="video" id="backgroundvideo" style="max-height:100%; max-width:100%; float:right" autoplay
+    muted loop>
+    <source src="/img/370_video.webm" type='video/webm; codecs="vp8, vorbis"' />
+  </video>
+
+  <div class="overlay">
+    <p>
+      Our walker exploring the Bardeen Quad as the ballerina pirouettes on top.
+    </p>
+  </div>
+</div>
 
 </body>
 </html>
