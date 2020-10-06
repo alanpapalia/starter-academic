@@ -8,13 +8,15 @@ date: "2020-10-06T00:00:00Z"
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
+
+image:
+  focal_point: Smart
+
 - icon: google-scholar
   icon_pack: ai
   name: Scholar
   url: https://scholar.google.com/citations?user=Ym3SpKgAAAAJ&hl=en
 
-image:
-  focal_point: Smart
 
 url_code: ""
 url_pdf: ""
