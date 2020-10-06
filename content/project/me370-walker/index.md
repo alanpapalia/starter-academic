@@ -32,3 +32,4 @@ walker mechanism.
 
 {{< video library="true" src="370_video.mv4" controls="yes" >}}
 {{< video library="true" src="370_video.webm" controls="yes" >}}
+{{< video library="true" src="370_video.mp4" controls="yes" >}}
