@@ -40,5 +40,3 @@ walker mechanism.
 </html>
 
 Our walker exploring the Bardeen Quad as the ballerina pirouettes on top.
-
-To actually design the walker we made use of 
