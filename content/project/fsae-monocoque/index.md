@@ -52,11 +52,12 @@ determine panel designs which met the structural requirements provided while
 still finding a minimal areal density of each panel.
 
 ![Panel Testing](panel_testing.png)
+*Sandwich panel testing to derive material properties*
 
-However, design did not stop here. As previously mentioned, to manufacture a
-composite structure we needed some form of mold, but our equipment was not able
-to machine a mold of suitable size in-house. This left us the options of either
-manufacturing the mold in parts and attempting to align the sections or
+However, design work did not stop here. As previously mentioned, to manufacture
+a composite structure we needed some form of mold, but our equipment was not
+able to machine a mold of suitable size in-house. This left us the options of
+either manufacturing the mold in parts and attempting to align the sections or
 outsourcing the machining. Thanks to our wonderful sponsors at <a href =
 "https://en.machinetools.camozzi.com/who/ingersoll-machine-tools.kl"> Ingersoll
 Machine Tools </a> we were able to work alongside them to design molds which

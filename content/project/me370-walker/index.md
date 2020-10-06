@@ -26,23 +26,9 @@ url_video: ""
 slides: ""
 ---
 
-For the Illini Motorsports Formula SAE team I designed and fabricated our
-aluminum fuel tank. There were several constraints and considerations which
-guided the design. First and foremost, was driver safety. The fuel tank had to
-be packaged in such a way that any malfunction could not put the driver at risk.
-Additional packaging constraints required that the fuel tank had to compactly
-fit in it's assigned area. In addition, serviceability was a key consideration
-in that the fuel tank needed to be easily accessed in the event of failures such
-as fuel pressure drops.
+For my Mechanical Design I class a group of us designed a ballerina-themed
+walker. This included all forms of linkage analysis to determine the appropriate
+walker mechanism.
 
-Beyond high-level qualitative measurements, fuel tank design also required
-consideration of the effects of fuel slosh and the weight of the tank. A thin
-aluminum sheet was selected to reduce weight while still ensuring the tank could
-be made without leaks.
-
-Fuel slosh has the potential to cause dynamic fuel starvation issues and impact
-vehicle dynamics. To reduce fuel slosh internal baffling was used. To determine
-an effective baffling design I set up computational fluid dynamics situations
-which used inertial loads recorded during real racing events and observed the
-fuel slosh caused during different baffle designs. The effects of baffling could be measured by the amount of time that fuel was present at the designed outlet and the net kinetic energy of the fuel.
-
+{{< video library="true" src="370_video.mv4" controls="yes" >}}
+{{< video library="true" src="370_video.webm" controls="yes" >}}
