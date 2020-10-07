@@ -41,4 +41,16 @@ walker mechanism.
 </body>
 </html>
 
+<html>
+<body>
+
+<h1>The video element</h1>
+
+<video width="320" height="240" loop autoplay muted>
+  <source src="370_video.mp4" type="video/mp4">
+</video>
+
+</body>
+</html> 
+
 Our walker exploring the Bardeen Quad as the ballerina pirouettes on top.
