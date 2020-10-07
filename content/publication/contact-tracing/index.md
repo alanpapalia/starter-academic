@@ -1,48 +1,52 @@
 ---
-title: "An example preprint / working paper"
+title: Inter-Mobile-Device Distance Estimation using Network Localization Algorithms for Digital Contact Logging Applications
 authors:
+- Lillian Clark
 - admin
-date: "2019-04-07T00:00:00Z"
+- Jonata Tyska Carvalho
+- Luca Mastrostefano
+- Bhaskar Krishnamachari
+date: "2020-07-20T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2020-09-30T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Mobile applications are being developed for automated logging of contacts via Bluetooth to help scale up digital contact tracing efforts in the context of the ongoing COVID-19 pandemic. A useful component of such applications is inter-device distance estimation, which can be formulated as a network localization problem. We survey several approaches and evaluate the performance of each on real and simulated Bluetooth Low Energy (BLE) measurement datasets with respect to both distance estimate accuracy and the proximity detection problem. We investigate the effects of obstructions like pockets, differences between device models, and the environment (i.e. indoors or outdoors) on performance. We conclude that while direct estimation can provide the best proximity detection when Received Signal Strength Indicator (RSSI) measurements are available, network localization algorithms like Isomap, Local Linear Embedding, and the spring model outperform direct estimation in the presence of missing or very noisy measurements. The spring model consistently achieves the best distance estimation accuracy. 
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: Contact tracing techniques for devices with Bluetooth Low-Energy (BLE) measurements
 
 tags:
 - Source Themes
 featured: false
 
 links:
-- name: Custom Link
-  url: http://example.org
-url_pdf: http://arxiv.org/pdf/1512.04133v1
+- name: arXiv
+  url: https://arxiv.org/abs/2007.10162
+url_pdf: https://arxiv.org/pdf/2007.10162.pdf
 url_code: '#'
-url_dataset: '#'
+url_dataset: ''
 url_poster: '#'
 url_project: ''
 url_slides: ''
-url_source: '#'
-url_video: '#'
+url_source: ''
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: Figure by Lilly Clark
   focal_point: ""
   preview_only: false
 
@@ -62,8 +66,27 @@ projects:
 slides: example
 ---
 
-{{% alert note %}}
-Click the *Slides* button above to demo Academic's Markdown slides feature.
-{{% /alert %}}
+Most modern day phones are equipped with hardware that allows for Bluetooth
+Low-Energy (BLE) communication with other phones. This can also be used to get a
+rough distance between two phones, something which many teams have tried to use
+to get contact tracing information. However, this approach has proven
+challenging, with the measurements being highly noisy and there being a good
+chance of two phones not having a measurement despite being within sensing range
+of each other.
 
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+To try to combat these challenges, the contact tracing problem can be considered
+a sensor network localization problem. This is a long-studied class of
+algorithms which attempt to localize members of a network using only pairwise
+distance measurements between network members. Modeling contact tracing as a
+network localization problem serves two distinct benefits. First, this allows
+for multiple measurements to be used to try to estimate the distance between
+phones, combatting the effects of noisy data. Secondly, this allows for the
+distance between two phones to be estimated even if there is no corresponding
+distance measurement between these two devices.
+
+In this collaboration I worked with <a
+href="https://sites.google.com/usc.edu/lillyclark">Lilly Clark </a> to test out
+a number of sensor network localization approaches for contact tracing. See our
+results and read more about it <a href="https://arxiv.org/abs/2007.10162">
+here</a>!
+
