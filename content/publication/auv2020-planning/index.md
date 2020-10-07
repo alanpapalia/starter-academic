@@ -19,21 +19,10 @@ publication_types: ["1"]
 publication: In *Source Themes Conference*
 publication_short: In *STC*
 
-abstract: Localization between a swarm of AUVs can be entirely estimated through
-the use of range measurements between neighboring AUVs via a class of techniques
-commonly referred to as sensor network localization. However, the localization
-quality depends on network topology, with degenerate topologies, referred to as
-low-rigidity configurations, leading to ambiguous or highly uncertain
-localization results. This paper presents tools for rigidity-based analysis,
-planning, and control of a multi-AUV network which account for sensor noise and
-limited sensing range. We evaluate our long-term planning framework in several
-two-dimensional simulated environments and show we are able to generate paths in
-feasible time and guarantee a minimum network rigidity over the full course of
-the paths.
+abstract: Localization between a swarm of AUVs can be entirely estimated through the use of range measurements between neighboring AUVs via a class of techniques commonly referred to as sensor network localization. However, the localization quality depends on network topology, with degenerate topologies, referred to as low-rigidity configurations, leading to ambiguous or highly uncertain localization results. This paper presents tools for rigidity-based analysis, planning, and control of a multi-AUV network which account for sensor noise and limited sensing range. We evaluate our long-term planning framework in several two-dimensional simulated environments and show we are able to generate paths in feasible time and guarantee a minimum network rigidity over the full course of the paths.
 
 # Summary. An optional shortened abstract.
-summary: Path-planning algorithm for networks of robots that use inter-robot
-distance measurements to localize
+summary: Path-planning algorithm for networks of robots that use inter-robot distance measurements to localize
 
 tags:
 - Source Themes
