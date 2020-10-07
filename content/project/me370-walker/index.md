@@ -34,7 +34,10 @@ walker mechanism.
 <body>
   <video class="video" autoplay muted loop>
     <source src="/img/370_video.mp4" type='video/mp4' />
+    <source src="/img/370_video.webm" type='video/webm' />
+    Your browser does not support the video tag.
   </video>
+
 </body>
 </html>
 
