@@ -32,8 +32,7 @@ walker mechanism.
 
 <html>
 <body>
-  <video class="video" autoplay
-    muted loop>
+  <video class="video" autoplay muted loop>
     <source src="/img/370_video.mp4" type='video/mp4' />
   </video>
 </body>

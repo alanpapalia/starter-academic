@@ -40,4 +40,4 @@ A key direction in my research is leveraging the use of inter-agent ranging, a
 measurement which does not depend on environmental observation, to aid the
 multi-robot localization task. However, there is a caveat, the quality of range-based localization varies based on the connectivity and spatial arrangement of the network of agents.
 
-In this work I developed a planner which allowed for networks of agents to efficiently plan trajectories that allowed them to stay in configurations which were favorable for range-based localization. Read more about it <a href=""> here </a>!
+In this work I developed a planner which allowed for networks of agents to efficiently plan trajectories that allowed them to stay in configurations which were favorable for range-based localization. Read more about it <a href=""> here</a>!

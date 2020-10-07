@@ -51,4 +51,7 @@ phones, combatting the effects of noisy data. Secondly, this allows for the
 distance between two phones to be estimated even if there is no corresponding
 distance measurement between these two devices.
 
-In this collaboration I worked with <a href="https://sites.google.com/usc.edu/lillyclark">Lilly Clark </a> to test out a number of sensor network localization approaches for contact tracing. See our results and read more about it <a href=""> here </a>!
+In this collaboration I worked with <a
+href="https://sites.google.com/usc.edu/lillyclark">Lilly Clark </a> to test out
+a number of sensor network localization approaches for contact tracing. See our
+results and read more about it <a href=""> here</a>!
