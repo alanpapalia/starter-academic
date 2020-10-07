@@ -19,8 +19,8 @@ publishDate: "2020-09-30T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: "In *Connected Health: Applications, Systems and Engineering Technologies*"
+publication_short: "In *CHASE 2020*"
 
 abstract: Mobile applications are being developed for automated logging of contacts via Bluetooth to help scale up digital contact tracing efforts in the context of the ongoing COVID-19 pandemic. A useful component of such applications is inter-device distance estimation, which can be formulated as a network localization problem. We survey several approaches and evaluate the performance of each on real and simulated Bluetooth Low Energy (BLE) measurement datasets with respect to both distance estimate accuracy and the proximity detection problem. We investigate the effects of obstructions like pockets, differences between device models, and the environment (i.e. indoors or outdoors) on performance. We conclude that while direct estimation can provide the best proximity detection when Received Signal Strength Indicator (RSSI) measurements are available, network localization algorithms like Isomap, Local Linear Embedding, and the spring model outperform direct estimation in the presence of missing or very noisy measurements. The spring model consistently achieves the best distance estimation accuracy. 
 
@@ -28,16 +28,16 @@ abstract: Mobile applications are being developed for automated logging of conta
 summary: Contact tracing techniques for devices with Bluetooth Low-Energy (BLE) measurements
 
 tags:
-- Source Themes
+- COVID-19
 featured: false
 
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2007.10162
 url_pdf: https://arxiv.org/pdf/2007.10162.pdf
-url_code: '#'
+url_code: ''
 url_dataset: ''
-url_poster: '#'
+url_poster: ''
 url_project: ''
 url_slides: ''
 url_source: ''
@@ -63,7 +63,7 @@ projects:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
 
 Most modern day phones are equipped with hardware that allows for Bluetooth
